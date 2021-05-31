@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<!-- Head todo la info que es para el navegador y no se ve, salvo el titulo. -->
+	<meta charset="UTF-8">
+	<title>JD Informatica</title>
+	<!-- Estilos de Bootstrap que es codigo responsive y visual ya escrito por otro. -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
+	<!-- codigo de colores y estilos escrito por nosotros -->
+	<link rel="stylesheet" href="css/style.css">
+	<!-- Tipografia -->
+	<link href="https://fonts.googleapis.com/css2?family=Hind:wght@500&display=swap" rel="stylesheet">
+	<!-- esto es para que el navegador se de cuenta cuando estamos en un celular o tableta-->
+	<meta name="viewport" content="width=device-width, minimum-scale=1, initial-scale=1, user-scalable=yes">
+
+</head>
+<!-- <body> Todo lo que se ve en la pantalla del usuario -->
+<body>
+<header>
+	<div class="container">
+		<div class="row top">
+			<!-- en esta linea cambiamos nuestro logo. -->
+			<div class="col-md-4"><a href="#home" data-ancla="home" class="off">
+				<img src="images/logo.png" alt="" class="logo"></a></div>
+			<div class="col-md-3"></div>
+			<div class="col-md-5">
+				<ul class='botonera'>
+					<li><a href="#nosotros" data-ancla="nosotros">Quienes somos</a></li>
+					<li><a href="#servicios" data-ancla="servicios">Servicios</a></li>
+					<li><a href="#contacto" data-ancla="contacto">Contacto</a></li>
+
+				</ul>
+
+			</div>
+		</div>
+	</div>
+</header>
+
+<div class="principal vertical-centered-text" id="home">
+	<div class="col-md-8 cta"><h1>JD Informatica</h1>
+			<h4>Servicios informáticos. ¡Todo tipo de soluciones!</h4>
+			<p>En JD nos enfocamos en ayudarte a solucionar tus problemas informáticos. ¡Cualquier cosa que necesites te vamos a dar una mano!</p>
+<a  href="https://www.instagram.com/p/CKmeTbuDqXG/" target="_blank" class="btn btn-primary orange">Visita los servicios</a>
+
+
+		</div>
+</div>
+
+<div class="nosotros orange" id="nosotros">
+	<div class="container">
+		<h1>Sobre Nosotros</h1>
+		<p>Somos un pequeño grupo familiar enfocado en la informática. ¿Tienes algún problema con tu computadora? ¿Necesitas mantenimiento? ¡Ven que te damos una mano!
+
+</p>
+	</div>
+</div>
+
+
+<div class="container servicios" id="servicios">
+	<div class="row">
+		<div class="col-md-12">
+			<h1>Nuestros Servicios</h1>
+		</div>
+	</div>
+	<div class="row images">
+		<div class="col-md-3">
+			<img src="images/001-monitor.svg" alt="">
+			<h3>Software/Hardware</h3>
+			<p>¿Problemas de software o hardware?
+				Cuéntanos qué problema tienes; consultas sin costo.</p>
+		</div>
+		<div class="col-md-3">
+			<img src="images/002-computer.svg" alt="">
+			<h3>Conectado</h3>
+			<p>¿Necesitas tus datos en una computadora o celular? Salvamos tus archivos personales en todo tipo de dispositivos para que los tengas donde quieras.</p>
+		</div>
+		<div class="col-md-3">
+			<img src="images/003-data.svg" alt="">
+			<h3>Soluciones Únicas</h3>
+			<p>¿Tienes alguna tarea sencilla que quieres automatizar? Consúltanos por scripts/programas personalizados.</p>
+		</div>
+		<div class="col-md-3">
+			<img src="images/004-checklist.svg" alt="">
+			<h3>Compromiso</h3>
+			<p>Nos queremos asegurar que tengas una experiencia ideal con respecto a tus problemas ¡Cada situación será única!</p>
+		</div>
+	</div>
+	
+</div>
+
+<footer>
+	<div class="container" id="contacto">
+		<div class="row">
+			<div class="col-md-12">
+					<h1>CONTACTO</h1><br><br>
+
+			</div>
+		</div>
+		<div class="row social">
+		<div class="col-3"></div>	
+
+					<div class="col-2">
+						<a href="mailto:emeraldusk@gmail.com"><img src="images/001-mail.svg" alt=""></a></div>
+
+					<div class="col-2">
+						<a href="https://www.facebook.com/JonathanDyallo/"  target="_blank"><img src="images/002-facebook-logo.svg" alt=""></a></div>
+
+					<div class="col-2">
+						<a target="_blank" href="https://www.instagram.com/jd.apprentice/" ><img src="images/003-instagram-social-network-logo-of-photo-camera.svg" alt=""></a></div>	
+	</div>
+</footer>
+<!-- Codigo que hace que las acciones de botones y cuestiones responsive funcionen-->
+<script
+  src="https://code.jquery.com/jquery-2.2.4.min.js"
+  integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+  crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js" integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4" crossorigin="anonymous"></script>
+<script>
+	// A $( document ).ready() block.
+$(document).ready(function() {    
+$('.top a').click(function(e){
+        e.preventDefault();
+        var offset = $($(this).attr('href')).offset().top;
+        $('html, body').animate({scrollTop:offset}, 600);
+        return false;
+    });
+
+});
+	
+</script>
+</body>
+</html>

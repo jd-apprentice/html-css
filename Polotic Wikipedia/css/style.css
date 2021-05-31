@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif
+  }
+
+.izquierda{
+    width: 30%;
+    padding: 1.5vw;
+    line-height: 18px;
+    flex: 30%;  
+}
+
+.izquierda a:hover{
+    border-bottom: 1px solid rgb(33, 63, 138);
+}
+
+.izquierda hr{
+    width: 30%;
+}
+
+.izquierda a{
+    font-size: 75%;
+    text-decoration: none;
+}
+
+h5{
+    font-size: 2rem;
+}
+
+h5 p{
+    font-size: 13px;
+    font-weight: normal;
+}
+
+h5 a{
+    text-decoration: none;
+}
+
+.articulo{
+    position: absolute;
+    margin: 330px 0px 0px 215px;
+    border: 2px solid rgba(171, 168, 168, 0.3);
+    padding: 2rem;
+    width: 86vw;
+}
+
+.articulo a{
+    text-decoration: none;
+}
+
+.articulo h5{
+    font-size: 90%;
+}
+
+.articulo a:hover{
+    border-bottom: 1px solid rgb(33, 63, 138);
+}
+
+.bienvenidos{
+    position: absolute;
+    margin: 125px 0px 0px 215px;
+    border: 1px solid rgba(171, 168, 168, 0.3);
+    padding: 2rem;
+    width: 86vw;
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/e/e3/Wikipedia_logo_letters_banner.svg");
+}
+
+.bienvenidos-derecha{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.bienvenidos-derecha a{
+    margin-left: 2vw;
+    font-size: 80%;
+    text-decoration: none;
+}
+
+.bienvenidos-derecha a:hover{
+    border-bottom: 1px solid rgb(33, 63, 138);
+}
+
+#bienvenidos-editar:hover{
+    border-bottom: 1px solid rgb(13, 74, 226);
+}
+
+#todos-editar:hover{
+    border-bottom: 1px solid rgb(33, 63, 138);
+}
+
+main{
+    border: 2px solid rgba(171, 168, 168, 0.3);
+    position: absolute;
+    margin: 100px 0px 0px 215px;
+    width: 86vw;
+    padding: 2rem;
+}
+
+.btn{
+    margin-top: 0.5vw;
+    margin-right: 3vw;
+}
+
+.texto-copy{
+    position: absolute;
+    margin: 300px 0px 0px 5px;
+    font-size: 0.7vw;
+}
+
+.img-2{
+    position: absolute;
+    margin: 325px 0px 0px 1550px;
+    size: 0.7vw;
+}
+
+.img-1{
+    position: absolute;
+    margin: 325px 0px 0px 1415px;
+    size: 0.7vw;
+}
+
+@media (max-width: 1080px){
+    .bienvenidos-derecha{
+        justify-content: flex-start;
+    }
+}
+
+@media (max-width: 720px){
+    .bienvenidos-derecha{
+        justify-content: flex-start;
+    }
+}
