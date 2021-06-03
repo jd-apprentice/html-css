@@ -55,6 +55,7 @@ body{
 
 .Youtube {
     border: 2px solid black;
+    border-radius: 10px;
     background-color: rgb(255, 255, 255, 0.3);
     display: inline-block;
     inline-size: 50%;
@@ -73,6 +74,7 @@ body{
 
 .Password{
     border: 2px solid black;
+    border-radius: 10px;
     background-color: rgb(255, 255, 255, 0.3);;
     display: inline-block;
     padding-top: 5px;
@@ -90,6 +92,7 @@ body{
 
 .EntryTxT{
     border: 2px solid black;
+    border-radius: 10px;
     background-color: rgb(255, 255, 255, 0.3);;
     display: inline-block;
     padding-top: 5px;
@@ -120,6 +123,7 @@ body{
 
 .Adventure{
     border: 2px solid black;
+    border-radius: 10px;
     background-color: rgb(255, 255, 255, 0.3);;
     display: inline-block;
     padding-top: 5px;
@@ -177,13 +181,27 @@ body{
     font-size: 3vh;
 }
 
-#about-me h2{
+#about-me{
     text-align: center;
-    padding-bottom: 40vw;
-    padding-top: 2vw;
+    height: 450px;
+    padding-top: 1vw;
     background-color: rgb(27, 34, 46);
     color: rgb(255, 255, 255);
     font-family: 'Prompt', sans-serif;
+}
+
+#about-me img{
+    display: inline;
+    padding-top: 2vw;
+    margin-right: 1vw;
+}
+
+#lenguajes{
+    padding-top: 3vw;
+}
+
+#Yo{
+    padding-top: 1vw;
 }
 
 .footer{
