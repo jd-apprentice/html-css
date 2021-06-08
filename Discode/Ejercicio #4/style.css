@@ -1,0 +1,192 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    color: white;
+    background-color: rgb(30, 28, 28);
+    font-family: 'Roboto', sans-serif;
+}
+
+#contenedor{
+    display: grid;
+    width:50%;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+}
+
+.thump{
+    width: 250px;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    margin-top: 1rem;
+}
+
+.pfp{
+    width: 30px;
+    margin: 0.7rem;
+    border-radius: 25px;
+    margin-bottom: 1rem;
+    display: block;
+    position: absolute;
+}
+
+.text{
+    display: inline-block;
+    justify-content: space-around;
+    margin-left: 3.5rem;
+}
+
+.duracion1{
+    background-color: black;
+    position: absolute;
+    top: 135px;
+    left: 230px;
+}
+
+.duracion2{
+    background-color: black;
+    position: absolute;
+    top: 135px;
+    left: 511px;
+}
+
+.duracion3{
+    background-color: black;
+    position: absolute;
+    top: 135px;
+    left: 795px;
+}
+
+.duracion4{
+    background-color: black;
+    position: absolute;
+    top: 135px;
+    left: 1075px;
+}
+
+.duracion5{
+    background-color: black;
+    position: absolute;
+    top: 135px;
+    left: 1356px;
+}
+
+.duracion6{
+    background-color: black;
+    position: absolute;
+    top: 135px;
+    left: 1640px;
+}
+
+.barrita1{
+    border: 2px solid red;
+    width: 250px; 
+    margin-left: 16px;
+    position: absolute;
+    top:155px;
+}
+
+.barrita2{
+    border: 2px solid red;
+    width: 250px;
+    margin-left: 16px;
+    position: absolute;
+    top: 155px;
+}
+
+.barrita3{
+    border: 2px solid red;
+    width: 250px;
+    margin-left: 16px;
+    position: absolute;
+    top: 155px;
+}
+
+.barrita4{
+    border: 2px solid red;
+    width: 250px;
+    margin-left: 16px;
+    position: absolute;
+    top: 155px;
+}
+
+.barrita5{
+    border: 2px solid red;
+    width: 250px;
+    margin-left: 16px;
+    position: absolute;
+    top: 155px;
+}
+
+.barrita6{
+    border: 2px solid red;
+    width: 250px;
+    margin-left: 16px;
+    position: absolute;
+    top: 155px;
+}
+
+@media (max-width: 1050px) {
+    #contenedor {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+    }
+
+    .barrita1 {
+        top: 155px;
+    }
+
+    .barrita2 {
+        top: 155px;
+    }
+
+    .barrita3 {
+        top: 630px;
+    }
+
+    .barrita4 {
+        top: 395px;
+    }
+
+    .barrita5 {
+        top: 395px;
+    }
+
+    .barrita6 {
+        top: 630px;
+    }
+
+    .duracion1 {
+        left: 227px;
+    }
+
+    .duracion2 {
+        top: 135px;
+        left: 509px;
+    }
+
+    .duracion3 {
+        top: 375px;
+        left: 227px;
+    }
+
+    .duracion4 {
+        top: 610px;
+        left: 227px;
+    }
+
+    .duracion5 {
+        top: 375px;
+        left: 509px;
+    }
+
+    .duracion6 {
+        top: 610px;
+        left: 509px;
+    }
+}
