@@ -157,6 +157,11 @@ body{
     margin-right: 1vw;
 }
 
+#about-me h3{
+    margin-left: 3rem;
+    margin-right: 3rem;
+}
+
 #lenguajes{
     padding-top: 3vw;
 }
