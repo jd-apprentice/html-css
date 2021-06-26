@@ -70,7 +70,7 @@ body{
 .Youtube {
     border: 2px solid black;
     border-radius: 10px;
-    background-color: rgb(255, 255, 255, 0.3);;
+    background-color: rgb(255, 255, 255, 0.3);
     display: inline-block;
     font-family: 'Prompt', sans-serif;
 }
@@ -86,7 +86,7 @@ body{
 .NotePad{
     border: 2px solid black;
     border-radius: 10px;
-    background-color: rgb(255, 255, 255, 0.3);;
+    background-color: rgb(255, 255, 255, 0.3);
     display: inline-block;
     font-family: 'Prompt', sans-serif;
 }
@@ -94,7 +94,7 @@ body{
 .Calculadora{
     border: 2px solid black;
     border-radius: 10px;
-    background-color: rgb(255, 255, 255, 0.3);;
+    background-color: rgb(255, 255, 255, 0.3);
     display: inline-block;
     font-family: 'Prompt', sans-serif;
 }
@@ -102,7 +102,7 @@ body{
 .EntryTxT{
     border: 2px solid black;
     border-radius: 10px;
-    background-color: rgb(255, 255, 255, 0.3);;
+    background-color: rgb(255, 255, 255, 0.3);
     display: inline-block;
     font-family: 'Prompt', sans-serif;
 }
@@ -110,7 +110,7 @@ body{
 .Adventure{
     border: 2px solid black;
     border-radius: 10px;
-    background-color: rgb(255, 255, 255, 0.3);;
+    background-color: rgb(255, 255, 255, 0.3);
     display: inline-block;
     font-family: 'Prompt', sans-serif;
 }
