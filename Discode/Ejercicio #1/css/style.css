@@ -13,23 +13,23 @@
     border: 1px solid #E1E4E8;
     border-radius: 5px;
     background-color: rgb(255, 255, 255);
-    margin: 10px 10px 0px 10px;
-    padding: 15px 15px 15px 15px;
-    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji;;
+    margin: 10px 10px 0;
+    padding: 15px;
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji;
 }
 
 .abajo{
     border: 1px solid #E1E4E8;
     border-radius: 5px;
     background-color: white;
-    margin: 0px 10px 10px 10px;
-    padding: 15px 15px 15px 15px;
-    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji;;
+    margin: 0 10px 10px;
+    padding: 15px;
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji;
 }
 
 h5{
     font-size: 20px;
-    padding: 10px 0px 5px 15px;
+    padding: 10px 0 5px 15px;
     font-weight: normal;
 }
 
@@ -54,7 +54,7 @@ h5{
 #icono{
     display: inline;
     float: left;
-    margin: 0px 10px 0px 0px;
+    margin: 0 10px 0 0;
 }
 
 #title{
