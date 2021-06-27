@@ -40,7 +40,7 @@ h5 a{
 
 .articulo{
     position: absolute;
-    margin: 330px 0px 0px 215px;
+    margin: 330px 215px;
     border: 2px solid rgba(171, 168, 168, 0.3);
     padding: 2rem;
     width: 86vw;
@@ -60,7 +60,7 @@ h5 a{
 
 .bienvenidos{
     position: absolute;
-    margin: 125px 0px 0px 215px;
+    margin: 125px 215px;
     border: 1px solid rgba(171, 168, 168, 0.3);
     padding: 2rem;
     width: 86vw;
@@ -93,7 +93,7 @@ h5 a{
 main{
     border: 2px solid rgba(171, 168, 168, 0.3);
     position: absolute;
-    margin: 100px 0px 0px 215px;
+    margin: 100px 215px;
     width: 86vw;
     padding: 2rem;
 }
@@ -105,19 +105,19 @@ main{
 
 .texto-copy{
     position: absolute;
-    margin: 300px 0px 0px 5px;
+    margin: 300px 5px;
     font-size: 0.7vw;
 }
 
 .img-2{
     position: absolute;
-    margin: 325px 0px 0px 1550px;
+    margin: 325px 1550px;
     size: 0.7vw;
 }
 
 .img-1{
     position: absolute;
-    margin: 325px 0px 0px 1415px;
+    margin: 325px 1415px;
     size: 0.7vw;
 }
 
